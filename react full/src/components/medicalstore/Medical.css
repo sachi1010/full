@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #9ebff6;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  /* Store Container */
+  #store {
+    background-color: #fbc3c3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  input[type="number"] {
+    max-width: 200px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Cart Section */
+  #cart {
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #cart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #cart th, #cart td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #cart th {
+    background-color: #f1f1f1;
+  }
+  
+  #cart td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #cart td span {
+    font-weight: bold;
+  }
+  
+  /* Product List Section */
+  #details {
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #details th, #details td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #details th {
+    background-color: #f1f1f1;
+  }
+  
+  #details td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Empty Cart Message */
+  #cart p {
+    font-size: 1.2em;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Search Section */
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  select {
+    max-width: 100%;
+  }
+  #product *{
+    background-color: rgba(255, 0, 0, 0.512);
+    font-size: 20px;
+    color:black;
+  }
+ 
