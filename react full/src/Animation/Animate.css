@@ -1,0 +1,129 @@
+
+
+/* 
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .box-show {
+    background-color: teal;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .box-hide {
+    background-color: crimson;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .spring {
+    background-color: orange;
+  }
+  
+  .framer {
+    background-color: mediumslateblue;
+  }
+  
+  .transition {
+    background-color: green;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.3s ease;
+  }
+  .transition-entering,
+  .transition-entered {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .gsap {
+    background-color: darkmagenta;
+    opacity: 1;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  .box-show {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s;
+  }
+  .box-hide {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s;
+  } */
+
+  /* Shared base box styles */
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+/* CSS Toggle */
+.css-box {
+  background-color: teal;
+}
+.box-show {
+  opacity: 1;
+  transform: scale(1);
+}
+.box-hide {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+/* React Spring */
+.spring-box {
+  background-color: orange;
+}
+
+/* Framer Motion */
+.framer-box {
+  background-color: mediumslateblue;
+}
+
+/* React Transition Group */
+.transition-box {
+  background-color: green;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease;
+}
+.transition-entering,
+.transition-entered {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.transition-exiting,
+.transition-exited {
+  opacity: 0 !important;
+  transform: scale(0.5) !important;
+}
+
+/* GSAP */
+.gsap-box {
+  background-color: darkmagenta;
+  opacity: 0;
+  transform: translateX(0);
+}
