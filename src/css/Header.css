@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    margin-left: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+}
+.navbar-nav{
+    margin-left: 150px;
+    color: wheat;
+}
+.navbar-nav a{
+    color: wheat !important;
+}

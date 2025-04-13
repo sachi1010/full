@@ -1,0 +1,31 @@
+{
+    "cabs": [
+      {
+        "id": 1,
+        "type": "Sedan",
+        "model": "Toyota Corolla",
+        "capacity": 4,
+        "fare_per_km": 12.5,
+        "availability": true,
+        "image_url": "card 1.avif"
+      },
+      {
+        "id": 2,
+        "type": "SUV",
+        "model": "Hyundai Creta",
+        "capacity": 6,
+        "fare_per_km": 18.0,
+        "availability": false,
+        "image_url": "card2.png"
+      },
+      {
+        "id": 3,
+        "type": "Hatchback",
+        "model": "Maruti Swift",
+        "capacity": 4,
+        "fare_per_km": 10.0,
+        "availability": true,
+        "image_url": "card3.jfif"
+      }
+    ]
+  }
